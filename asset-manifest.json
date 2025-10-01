@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/BYS-Legality/static/js/main.08c9a1c1.js",
+    "main.js": "/BYS-Legality/static/js/main.b3662b7e.js",
     "index.html": "/BYS-Legality/index.html",
-    "main.08c9a1c1.js.map": "/BYS-Legality/static/js/main.08c9a1c1.js.map"
+    "main.b3662b7e.js.map": "/BYS-Legality/static/js/main.b3662b7e.js.map"
   },
   "entrypoints": [
-    "static/js/main.08c9a1c1.js"
+    "static/js/main.b3662b7e.js"
   ]
 }
