@@ -9,9 +9,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/terms" element={<Terms />} />
-        <Route path="*" element={<Navigate to="/privacy" />} />
+        <Route path="BYS-Legality/privacy" element={<PrivacyPolicy />} />
+        <Route path="BYS-Legality/terms" element={<Terms />} />
+        <Route path="*" element={<Navigate to="BYS-Legality/privacy" />} />
       </Routes>
     </>
   );
