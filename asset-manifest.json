@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/BYS-Legality/static/css/main.815b1ffe.css",
-    "main.js": "/BYS-Legality/static/js/main.a03a0dc8.js",
+    "main.js": "/BYS-Legality/static/js/main.08c9a1c1.js",
     "index.html": "/BYS-Legality/index.html",
-    "main.815b1ffe.css.map": "/BYS-Legality/static/css/main.815b1ffe.css.map",
-    "main.a03a0dc8.js.map": "/BYS-Legality/static/js/main.a03a0dc8.js.map"
+    "main.08c9a1c1.js.map": "/BYS-Legality/static/js/main.08c9a1c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.815b1ffe.css",
-    "static/js/main.a03a0dc8.js"
+    "static/js/main.08c9a1c1.js"
   ]
 }
