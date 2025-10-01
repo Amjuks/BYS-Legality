@@ -1,19 +1,28 @@
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import Header from './components/Header';
 import './style.css';
 
+function getPageComponent(page) {
+  switch (page) {
+    case 'privacy':
+      return <PrivacyPolicy />;
+    case 'tos':
+      return <Terms />;
+    default:
+      return <PrivacyPolicy />;
+  }
+}
+
 function App() {
+  const params = new URLSearchParams(window.location.search);
+  const page = params.get('page') || 'privacy';
+
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="privacy" element={<PrivacyPolicy />} />
-        <Route path="terms" element={<Terms />} />
-        <Route path="*" element={<Navigate to="privacy" />} />
-      </Routes>
+      {getPageComponent(page)}
     </>
   );
 }

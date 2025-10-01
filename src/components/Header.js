@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
-  const location = useLocation();
-
   useEffect(() => {
     const header = document.querySelector("header");
 
@@ -33,15 +30,15 @@ function Header() {
         document.body.style.paddingTop = "";
       };
     }
-  }, [location]);
+  }, []);
 
   return (
     <header>
       <div className='limit-width header-wrap'>
         <div className='Logo'>👊<div className='golden'>BYS</div></div>
         <nav>
-          <Link to="/privacy">Privacy</Link>
-          <Link to="/terms">Terms</Link>
+          <a href="?page=privacy">Privacy</a>
+          <a href="?page=tos">Terms</a>
         </nav>
       </div>
     </header>
